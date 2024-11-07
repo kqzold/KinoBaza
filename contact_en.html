@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Films</title>
+    <title>Contact</title>
     <meta name="description" content="KinoBase - a portal about movies">
     <meta name="keywords" content="movies, online movies, HD">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
     
@@ -26,11 +26,11 @@
                     <li><a href="films_en.html">Films</a></li>
                     <li><a href="serials_en.html">Series</a></li>
                     <li><a href="rating_en.html">Movie Ratings</a></li>
-                    <li><a href="contact_en.html">Contact</a></li>
+                    <li class="selected"><a href="contact_en.html">Contact</a></li>
                 </ul>
                 <ul class="language-switcher">
-                    <li><a href="films.html">RU</a></li>
-                    <li><a href="films_en.html">EN</a></li>
+                    <li><a href="contact.html">RU</a></li>
+                    <li><a href="contact_en.html">EN</a></li>
                 </ul>
             </nav>
         </header>
@@ -54,7 +54,7 @@
                         <input type="text" name="Login_field" placeholder="login"/>
                         <input type="password" name="password_field" placeholder="password"/>
                         <input type="submit" class="btn" value="Login" />
-                        <div class="labels_passreg_text">
+                        <div class="lables_passreg_text">
                             <span><a href="#">Forgot password?</a></span> | <span><a href="#">Register</a></span>
                         </div>
 
@@ -82,35 +82,26 @@
 
             <div class="content">
 
-                <div class="info_film">
-                    <img src="/photo/inter.png">
-                    When drought brings humanity to a food crisis, a group of researchers and scientists travel through a wormhole (which presumably connects regions of space-time over a great distance) on a journey to transcend previous human space travel limitations and relocate humanity to another planet.
-                    <div class="button"><a href="show.html">Watch</a></div>
-                </div>
-                <div class="info_film">
-                    <img src="/photo/max.png">
-                    When drought brings humanity to a food crisis, a group of researchers and scientists travel through a wormhole (which presumably connects regions of space-time over a great distance) on a journey to transcend previous human space travel limitations and relocate humanity to another planet.
-                    <div class="button"><a href="madmax.html">Watch</a></div>
-                </div>
-                <div class="info_film">
-                    <img src="/photo/matrix.png">
-                    When drought brings humanity to a food crisis, a group of researchers and scientists travel through a wormhole (which presumably connects regions of space-time over a great distance) on a journey to transcend previous human space travel limitations and relocate humanity to another planet.
-                    <div class="button"><a href="matrix.html">Watch</a></div>
-                </div>
-                <div class="info_film">
-                    <img src="/photo/cloud.png">
-                    When drought brings humanity to a food crisis, a group of researchers and scientists travel through a wormhole (which presumably connects regions of space-time over a great distance) on a journey to transcend previous human space travel limitations and relocate humanity to another planet.
-                    <div class="button"><a href="cloud.html">Watch</a></div>
+                <h1>Contact</h1>
+                <p>Send your feedback about the KinoBase portal</p>
+
+                <div class="send send_contact">
+                    <form method="post" action="#" id="contact">
+                        <input type="text" name="review_name" placeholder="Your name">
+                        <input type="text" name="review_email" placeholder="Your email">
+                        <textarea name="review_text"></textarea>
+                        <input class="btn" type="submit" value="Send">
+                    </form>
                 </div>
             </div>
          </section>
         <div class="footer">
             <p>
-                <a href="index_en.html"> Home</a>
-                <a href="films_en.html"> Films</a>
-                <a href="serials_en.html"> Series</a>
-                <a href="rating_en.html"> Movie Ratings</a>
-                <a href="contact_en.html"> Contact</a>
+                <a href="index_en.html">Home</a>
+                <a href="films_en.html">Films</a>
+                <a href="serials_en.html">Series</a>
+                <a href="rating_en.html">Movie Ratings</a>
+                <a href="contact_en.html">Contact</a>
             </p>
             <p>kinopoisk.ru</p>
         </div>
